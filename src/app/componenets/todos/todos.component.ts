@@ -29,5 +29,5 @@ deleteTodo(todo:TodoEntity)
 addTodo(todo:TodoEntity) {
   this.todoService.addTodo(todo).subscribe(todo => {   this.todos.push(todo);  });
 }
-// to do
+// to do 2
 }
